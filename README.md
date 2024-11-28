@@ -16,10 +16,10 @@
 
         /* Header Styles */
         header {
-            background-color: #85c1e9; /* Light blue */
+            background-color: #b2d8b2; /* Light green */
             color: white;
-            padding: 1rem;
             text-align: center;
+            padding: 1rem;
         }
 
         header h1 {
@@ -29,7 +29,7 @@
         nav ul {
             list-style: none;
             padding: 0;
-            margin: 1rem 0;
+            margin: 0;
             display: flex;
             justify-content: center;
             gap: 15px;
@@ -40,8 +40,8 @@
         }
 
         nav ul li a {
-            color: white;
             text-decoration: none;
+            color: white;
             font-weight: bold;
             padding: 0.5rem 1rem;
             border-radius: 5px;
@@ -49,74 +49,64 @@
         }
 
         nav ul li a:hover {
-            background-color: #b2d8b2; /* Light green hover effect */
+            background-color: #85c1e9; /* Light blue hover */
         }
 
-        /* Main Content Styles */
+        /* Main Section */
         main {
-            padding: 1rem;
+            padding: 2rem;
             text-align: center;
-            background-color: white; /* White background for content */
-            margin: 1rem auto;
-            max-width: 90%;
-            border-radius: 10px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .product-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 1rem;
-            margin-top: 1rem;
+            margin-top: 2rem;
         }
 
         .product {
-            background-color: #f5fcff; /* Very light blue */
-            padding: 1rem;
+            background: white;
             border: 1px solid #ddd;
             border-radius: 5px;
-            transition: transform 0.3s ease;
-        }
-
-        .product:hover {
-            transform: scale(1.05);
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .product img {
             max-width: 100%;
-            height: auto;
             border-radius: 5px;
         }
 
-        .product h3 {
-            margin: 0.5rem 0;
-        }
-
-        .product button {
-            background-color: #85c1e9; /* Light blue button */
+        button {
+            background-color: #4CAF50; /* Green button */
             color: white;
             border: none;
-            padding: 0.5rem;
+            padding: 0.5rem 1rem;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
 
-        .product button:hover {
-            background-color: #4CAF50; /* Green hover effect */
+        button:hover {
+            background-color: #45a049;
         }
 
-        /* Footer Styles */
+        /* Footer */
         footer {
-            background-color: #b2d8b2; /* Light green */
+            background-color: #85c1e9; /* Light blue */
             color: white;
             text-align: center;
             padding: 1rem;
-            margin-top: 1rem;
         }
 
         footer a {
-            color: white;
+            color: #b2d8b2; /* Light green for links */
+            text-decoration: none;
+        }
+
+        footer a:hover {
             text-decoration: underline;
         }
     </style>
@@ -137,7 +127,6 @@
     <main>
         <h2>Welcome to NIKOXA</h2>
         <div class="product-grid">
-            <!-- Repeat this block for more products -->
             <div class="product">
                 <img src="https://via.placeholder.com/150" alt="Product 1">
                 <h3>Product 1</h3>
@@ -150,7 +139,7 @@
                 <p>$29.99</p>
                 <button>View Details</button>
             </div>
-            <!-- Add more products as needed -->
+            <!-- Add more product blocks as needed -->
         </div>
     </main>
     <footer>
