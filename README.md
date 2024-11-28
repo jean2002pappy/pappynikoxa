@@ -146,20 +146,7 @@
                 <h3>Product 3</h3>
                 <p>$39.99</p>
                 <button>View Details</button>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="Product 4">
-                <h3>Product 4</h3>
-                <p>$49.99</p>
-                <button>View Details</button>
-            </div>
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="Product 5">
-                <h3>Product 5</h3>
-                <p>$59.99</p>
-                <button>View Details</button>
-            </div>
-            <div class="product">
+            
                 <img src="https://via.placeholder.com/150" alt="Product 6">
                 <h3>Product 6</h3>
                 <p>$69.99</p>
