@@ -49,7 +49,8 @@
         }
 
         nav ul li a:hover {
-            background-color: #85c1e9; /* Light blue hover */
+            background-color: white;
+            color: #4CAF50; /* Green hover text */
         }
 
         /* Main Section */
@@ -95,14 +96,14 @@
 
         /* Footer */
         footer {
-            background-color: #85c1e9; /* Light blue */
+            background-color: #b2d8b2; /* Light green */
             color: white;
             text-align: center;
             padding: 1rem;
         }
 
         footer a {
-            color: #b2d8b2; /* Light green for links */
+            color: white;
             text-decoration: none;
         }
 
