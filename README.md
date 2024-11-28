@@ -13,7 +13,7 @@
         </nav>
     </header>
     <main>
-        <h2>Welcome to NIKOXA</h2>
+        <h2>Welcome to NIKOXA, Your favolate traditinal clothing store</h2>
         <div class="product-grid">
             <!-- Repeat this block for 25 products -->
             <div class="product">
