@@ -16,11 +16,10 @@
 
         /* Header Styles */
         header {
-            background-color: #b2d8b2; /* Very light green */
+            background-color: #85c1e9; /* Light blue */
             color: white;
             padding: 1rem;
             text-align: center;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
@@ -30,10 +29,10 @@
         nav ul {
             list-style: none;
             padding: 0;
-            margin: 0;
+            margin: 1rem 0;
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 15px;
         }
 
         nav ul li {
@@ -50,42 +49,37 @@
         }
 
         nav ul li a:hover {
-            background-color: #85c1e9; /* Light blue hover effect */
+            background-color: #b2d8b2; /* Light green hover effect */
         }
 
-        /* Main Styles */
+        /* Main Content Styles */
         main {
-            padding: 2rem;
-            background-color: white; /* White background for the main section */
-            border-radius: 10px;
-            margin: 2rem;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        main h2 {
+            padding: 1rem;
             text-align: center;
-            color: #4CAF50; /* Green title */
+            background-color: white; /* White background for content */
+            margin: 1rem auto;
+            max-width: 90%;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .product-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 1rem;
-            padding: 1rem;
+            margin-top: 1rem;
         }
 
         .product {
-            background: #f5fcff; /* Very light blue */
+            background-color: #f5fcff; /* Very light blue */
             padding: 1rem;
             border: 1px solid #ddd;
-            text-align: center;
             border-radius: 5px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: transform 0.3s ease;
         }
 
         .product:hover {
             transform: scale(1.05);
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         .product img {
@@ -94,38 +88,35 @@
             border-radius: 5px;
         }
 
-        button {
-            background-color: #4CAF50; /* Green button */
+        .product h3 {
+            margin: 0.5rem 0;
+        }
+
+        .product button {
+            background-color: #85c1e9; /* Light blue button */
             color: white;
             border: none;
-            padding: 0.5rem 1rem;
+            padding: 0.5rem;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
 
-        button:hover {
-            background-color: #45a049;
+        .product button:hover {
+            background-color: #4CAF50; /* Green hover effect */
         }
 
         /* Footer Styles */
         footer {
-            background-color: #85c1e9; /* Light blue */
+            background-color: #b2d8b2; /* Light green */
             color: white;
             text-align: center;
             padding: 1rem;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-            border-top: 5px solid #4CAF50; /* Green border */
+            margin-top: 1rem;
         }
 
         footer a {
-            color: #e8f8f5; /* Very light green link */
-            text-decoration: none;
-        }
-
-        footer a:hover {
+            color: white;
             text-decoration: underline;
         }
     </style>
@@ -135,25 +126,31 @@
         <h1>NIKOXA</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="catalogue.html">Catalogue</a></li>
-                <li><a href="cart.html">Cart</a></li>
-                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Catalogue</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Checkout</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h2>Welcome to NIKOXA</h2>
         <div class="product-grid">
-            <!-- Repeat this block for 25 products -->
+            <!-- Repeat this block for more products -->
             <div class="product">
                 <img src="https://via.placeholder.com/150" alt="Product 1">
                 <h3>Product 1</h3>
                 <p>$19.99</p>
                 <button>View Details</button>
             </div>
-            <!-- Add 24 more product blocks here -->
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>$29.99</p>
+                <button>View Details</button>
+            </div>
+            <!-- Add more products as needed -->
         </div>
     </main>
     <footer>
